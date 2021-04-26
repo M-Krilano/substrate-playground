@@ -117,6 +117,14 @@
 
 /*! ./diagrams/pie/styles */
 
+/*! ./diagrams/requirement/parser/requirementDiagram */
+
+/*! ./diagrams/requirement/requirementDb */
+
+/*! ./diagrams/requirement/requirementRenderer */
+
+/*! ./diagrams/requirement/styles */
+
 /*! ./diagrams/sequence/parser/sequenceDiagram */
 
 /*! ./diagrams/sequence/sequenceDb */
@@ -209,11 +217,17 @@
 
 /*! ./parser/pie */
 
+/*! ./parser/requirementDiagram */
+
 /*! ./parser/sequenceDiagram */
 
 /*! ./parser/stateDiagram */
 
 /*! ./pieDb */
+
+/*! ./requirementDb */
+
+/*! ./requirementMarkers */
 
 /*! ./sequenceDb */
 
@@ -311,7 +325,7 @@
 
 /*! exports provided: parseDirective, addState, clear, getState, getStates, logDocuments, getRelations, addRelation, cleanupLabel, lineType, relationType, default */
 
-/*! exports provided: parseDirective, clear, setAxisFormat, getAxisFormat, setTodayMarker, getTodayMarker, setDateFormat, enableInclusiveEndDates, endDatesAreInclusive, getDateFormat, setExcludes, getExcludes, setTitle, getTitle, addSection, getSections, getTasks, addTask, findTaskById, addTaskOrg, setLink, setClass, setClickEvent, bindFunctions, default */
+/*! exports provided: parseDirective, clear, setAxisFormat, getAxisFormat, setTodayMarker, getTodayMarker, setDateFormat, enableInclusiveEndDates, endDatesAreInclusive, enableTopAxis, topAxisEnabled, getDateFormat, setExcludes, getExcludes, setTitle, getTitle, addSection, getSections, getTasks, addTask, findTaskById, addTaskOrg, setLink, setClass, setClickEvent, bindFunctions, default */
 
 /*! exports provided: parseDirective, clear, setTitle, getTitle, addSection, getSections, getTasks, addTask, addTaskOrg, default */
 
@@ -328,6 +342,8 @@
 /*! exports provided: setConf, draw, bounds, drawTasks, default */
 
 /*! exports provided: setConf, draw, default */
+
+/*! exports provided: setConf, drawReqs, drawElements, draw, default */
 
 /*! exports provided: setConf, getClasses, draw, default */
 
@@ -599,6 +615,10 @@
   !*** ./src/diagrams/pie/parser/pie.jison ***!
   \*******************************************/
 
+/*!********************************************!*\
+  !*** ./src/diagrams/requirement/styles.js ***!
+  \********************************************/
+
 /*!*********************************************!*\
   !*** ./src/diagrams/class/classRenderer.js ***!
   \*********************************************/
@@ -684,6 +704,10 @@
   \***************************************************/
 
 /*!***************************************************!*\
+  !*** ./src/diagrams/requirement/requirementDb.js ***!
+  \***************************************************/
+
+/*!***************************************************!*\
   !*** ./src/diagrams/sequence/sequenceRenderer.js ***!
   \***************************************************/
 
@@ -720,11 +744,19 @@
   \*******************************************************/
 
 /*!********************************************************!*\
+  !*** ./src/diagrams/requirement/requirementMarkers.js ***!
+  \********************************************************/
+
+/*!********************************************************!*\
   !*** ./src/diagrams/user-journey/parser/journey.jison ***!
   \********************************************************/
 
 /*!*********************************************************!*\
   !*** ./src/dagre-wrapper/intersect/intersect-circle.js ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./src/diagrams/requirement/requirementRenderer.js ***!
   \*********************************************************/
 
 /*!**********************************************************!*\
@@ -738,6 +770,10 @@
 /*!************************************************************!*\
   !*** ./src/diagrams/sequence/parser/sequenceDiagram.jison ***!
   \************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./src/diagrams/requirement/parser/requirementDiagram.jison ***!
+  \******************************************************************/
 
 /**
  * @license
