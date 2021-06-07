@@ -17,6 +17,8 @@
 
 /*! ../../dagre-wrapper/index.js */
 
+/*! ../../diagrams/common/common */
+
 /*! ../../logger */
 
 /*! ../../mermaidAPI */
@@ -30,6 +32,8 @@
 /*! ../createLabel */
 
 /*! ../diagrams/class/svgDraw */
+
+/*! ../diagrams/common/common */
 
 /*! ../intersect/index.js */
 
@@ -307,7 +311,7 @@
 
 /*! exports provided: encodeEntities, decodeEntities, default */
 
-/*! exports provided: getRows, removeScript, sanitizeText, lineBreakRegex, hasBreaks, splitBreaks, default */
+/*! exports provided: getRows, removeScript, sanitizeText, lineBreakRegex, hasBreaks, splitBreaks, evaluate, default */
 
 /*! exports provided: getThemeVariables */
 
