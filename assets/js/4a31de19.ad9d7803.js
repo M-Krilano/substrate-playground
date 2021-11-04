@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksubstrate_playground=self.webpackChunksubstrate_playground||[]).push([[924],{482:function(s){s.exports={blogPosts:[]}}}]);
